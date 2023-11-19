@@ -97,10 +97,10 @@ class _AppState extends State<App> {
         wrongCount = '0';
         notice = '';
       } else {
+        wrongCount = (int.parse(wrongCount) + 1).toString();
         if (int.parse(wrongCount) >= 3) {
           noticeColor = Colors.red;
         }
-        wrongCount = (int.parse(wrongCount) + 1).toString();
         notice = '$wrongCount회 오류';
         if (int.parse(wrongCount) == 3) {
           emergencyAlarmOn();
