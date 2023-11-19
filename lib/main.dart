@@ -96,6 +96,9 @@ class _AppState extends State<App> {
         passwordInput = '';
         wrongCount = '0';
         notice = '';
+
+        // 블루투스 신호 전달하기
+        
       } else {
         wrongCount = (int.parse(wrongCount) + 1).toString();
         if (int.parse(wrongCount) >= 3) {
