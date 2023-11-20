@@ -170,12 +170,12 @@ class _AppState extends State<App> {
                   children: [
                     Flexible(
                       flex: 1,
-                      child: InkWell(
-                        onTap: () {
-                          numberPressed('1');
-                        },
-                        child: Padding(
-                          padding: const EdgeInsets.all(15),
+                      child: Padding(
+                        padding: const EdgeInsets.all(15),
+                        child: InkWell(
+                          onTap: () {
+                            numberPressed('1');
+                          },
                           child: Container(
                             alignment: Alignment.center,
                             decoration: const BoxDecoration(
@@ -198,12 +198,12 @@ class _AppState extends State<App> {
                     ),
                     Flexible(
                       flex: 1,
-                      child: InkWell(
-                        onTap: () {
-                          numberPressed('2');
-                        },
-                        child: Padding(
-                          padding: const EdgeInsets.all(15),
+                      child: Padding(
+                        padding: const EdgeInsets.all(15),
+                        child: InkWell(
+                          onTap: () {
+                            numberPressed('2');
+                          },
                           child: Container(
                             alignment: Alignment.center,
                             decoration: const BoxDecoration(
@@ -226,12 +226,12 @@ class _AppState extends State<App> {
                     ),
                     Flexible(
                       flex: 1,
-                      child: InkWell(
-                        onTap: () {
-                          numberPressed('3');
-                        },
-                        child: Padding(
-                          padding: const EdgeInsets.all(15),
+                      child: Padding(
+                        padding: const EdgeInsets.all(15),
+                        child: InkWell(
+                          onTap: () {
+                            numberPressed('3');
+                          },
                           child: Container(
                             alignment: Alignment.center,
                             decoration: const BoxDecoration(
@@ -261,12 +261,12 @@ class _AppState extends State<App> {
                   children: [
                     Flexible(
                       flex: 1,
-                      child: InkWell(
-                        onTap: () {
-                          numberPressed('4');
-                        },
-                        child: Padding(
-                          padding: const EdgeInsets.all(15),
+                      child: Padding(
+                        padding: const EdgeInsets.all(15),
+                        child: InkWell(
+                          onTap: () {
+                            numberPressed('4');
+                          },
                           child: Container(
                             alignment: Alignment.center,
                             decoration: const BoxDecoration(
@@ -289,12 +289,12 @@ class _AppState extends State<App> {
                     ),
                     Flexible(
                       flex: 1,
-                      child: InkWell(
-                        onTap: () {
-                          numberPressed('5');
-                        },
-                        child: Padding(
-                          padding: const EdgeInsets.all(15),
+                      child: Padding(
+                        padding: const EdgeInsets.all(15),
+                        child: InkWell(
+                          onTap: () {
+                            numberPressed('5');
+                          },
                           child: Container(
                             alignment: Alignment.center,
                             decoration: const BoxDecoration(
@@ -317,12 +317,12 @@ class _AppState extends State<App> {
                     ),
                     Flexible(
                       flex: 1,
-                      child: InkWell(
-                        onTap: () {
-                          numberPressed('6');
-                        },
-                        child: Padding(
-                          padding: const EdgeInsets.all(15),
+                      child: Padding(
+                        padding: const EdgeInsets.all(15),
+                        child: InkWell(
+                          onTap: () {
+                            numberPressed('6');
+                          },
                           child: Container(
                             alignment: Alignment.center,
                             decoration: const BoxDecoration(
@@ -352,12 +352,12 @@ class _AppState extends State<App> {
                   children: [
                     Flexible(
                       flex: 1,
-                      child: InkWell(
-                        onTap: () {
-                          numberPressed('7');
-                        },
-                        child: Padding(
-                          padding: const EdgeInsets.all(15),
+                      child: Padding(
+                        padding: const EdgeInsets.all(15),
+                        child: InkWell(
+                          onTap: () {
+                            numberPressed('7');
+                          },
                           child: Container(
                             alignment: Alignment.center,
                             decoration: const BoxDecoration(
@@ -380,12 +380,12 @@ class _AppState extends State<App> {
                     ),
                     Flexible(
                       flex: 1,
-                      child: InkWell(
-                        onTap: () {
-                          numberPressed('8');
-                        },
-                        child: Padding(
-                          padding: const EdgeInsets.all(15),
+                      child: Padding(
+                        padding: const EdgeInsets.all(15),
+                        child: InkWell(
+                          onTap: () {
+                            numberPressed('8');
+                          },
                           child: Container(
                             alignment: Alignment.center,
                             decoration: const BoxDecoration(
@@ -408,12 +408,12 @@ class _AppState extends State<App> {
                     ),
                     Flexible(
                       flex: 1,
-                      child: InkWell(
-                        onTap: () {
-                          numberPressed('9');
-                        },
-                        child: Padding(
-                          padding: const EdgeInsets.all(15),
+                      child: Padding(
+                        padding: const EdgeInsets.all(15),
+                        child: InkWell(
+                          onTap: () {
+                            numberPressed('9');
+                          },
                           child: Container(
                             alignment: Alignment.center,
                             decoration: const BoxDecoration(
@@ -443,12 +443,12 @@ class _AppState extends State<App> {
                   children: [
                     Flexible(
                       flex: 1,
-                      child: InkWell(
-                        onTap: () {
-                          asteriskPressed();
-                        },
-                        child: Padding(
-                          padding: const EdgeInsets.all(15),
+                      child: Padding(
+                        padding: const EdgeInsets.all(15),
+                        child: InkWell(
+                          onTap: () {
+                            asteriskPressed();
+                          },
                           child: Container(
                             alignment: Alignment.center,
                             decoration: const BoxDecoration(
@@ -471,12 +471,12 @@ class _AppState extends State<App> {
                     ),
                     Flexible(
                       flex: 1,
-                      child: InkWell(
-                        onTap: () {
-                          numberPressed('0');
-                        },
-                        child: Padding(
-                          padding: const EdgeInsets.all(15),
+                      child: Padding(
+                        padding: const EdgeInsets.all(15),
+                        child: InkWell(
+                          onTap: () {
+                            numberPressed('0');
+                          },
                           child: Container(
                             alignment: Alignment.center,
                             decoration: const BoxDecoration(
@@ -499,14 +499,14 @@ class _AppState extends State<App> {
                     ),
                     Flexible(
                       flex: 1,
-                      child: InkWell(
-                        onTap: () {
-                          if (isAsteriskPressed) {
-                            updatePassword();
-                          }
-                        },
-                        child: Padding(
-                          padding: const EdgeInsets.all(15),
+                      child: Padding(
+                        padding: const EdgeInsets.all(15),
+                        child: InkWell(
+                          onTap: () {
+                            if (isAsteriskPressed) {
+                              updatePassword();
+                            }
+                          },
                           child: Container(
                             alignment: Alignment.center,
                             decoration: const BoxDecoration(
